@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>50 States Trivia</title>
+			<link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="css/main.css"/>
+			<script src="js/jquery-2.1.4.min.js"></script>
+			<script src="js/main.js"></script>
+		</head>
+
+		<body bgcolor="#D3D3D3">
+			<center>
+				<div id="header">
+					<br>
+					<h1>50 States Trivia</h1>
+					<h4><em>Do you really know your 50 states?</em></h4>
+				</div>
+
+				<div id="content">
+					<h3 id="highScore">High Score: 0</h3>
+					<h3 id="currentScore">Current Score: 0</h3>
+					<h3 id="timeLeft">Time Remaining: 120 seconds</h3>
+					<br><br>
+					<img width="500px" src="images/usa.png"/>
+					<br>
+					<em><h3 id="question">Click 'start' to begin playing!</h3></em>
+					<br><br>
+					<input type="text" name="inputState" onkeyup="checkResponse()" id="inputState" autofocus="autofocus" value="">
+					<input type="submit" value="Skip" onclick="skip()">
+					<input type="submit" value="Restart" onclick="restart()">
+					<br><br>
+				</div>
+			</center>
+			
+			<script>startTimer(120)</script>
+		</body>
+	</html>

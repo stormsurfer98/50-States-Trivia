@@ -1,0 +1,20 @@
+h1 {
+	font-family: "Raleway";
+	font-weight: 800;
+}
+
+h3 {
+	font-family: "Raleway";
+	font-weight: 400;
+	display: inline;
+	padding: 0px 25px 0px 25px;
+}
+
+h4, p {
+	font-family: "Raleway";
+	font-weight: 400;
+}
+
+input[type=submit] {
+	margin-left: 10px;
+}
